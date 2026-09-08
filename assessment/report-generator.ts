@@ -43,6 +43,6 @@ export function generateReport(result: AssessmentResult): string {
     md += `- **M2M Readiness:** Implementierung von Agent-Wallets für automatisiertes B2B-Trading.\n`;
   }
 
-  md += `\n---\n*Generiert durch KontorStack Agentic Maturity Model.*\n`;
+  md += `\n---\n*Generiert durch AgentStack Agentic Maturity Model.*\n`;
   return md;
 }
