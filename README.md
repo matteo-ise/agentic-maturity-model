@@ -7,6 +7,12 @@
 </div>
 
 
+> [!NOTE]
+> **Proof of Concept & Infrastructure Blueprint**  
+> Dieses Repository ist Teil einer konzeptionellen Infrastruktur für Agentic Commerce. Es dient als **Proof of Concept (PoC)** und Framework-Vorlage. Der Code ist experimentell und soll Entwicklern als Ausgangspunkt dienen, um eigene M2M- und Agenten-Systeme weiterzuentwickeln. Es handelt sich noch nicht um ein finales, produktionsreifes Release.
+
+
+
 > Ein Reifegradmodell für die agentische Transformation von Unternehmen.
 
 Jedes Unternehmen steht vor der gleichen Frage: Wie weit sind wir — und was kommt als nächstes? Das **Agentic Maturity Model (AMM)** ist das definitive Reifegradmodell für die Transformation ins Agent-Zeitalter. Es ist das CMMI und ITIL der neuen Ära — von Chaos (0) bis zur M2M-Autonomie (5).
@@ -59,12 +65,6 @@ Nutzen Sie die Vorlagen im `templates/`-Verzeichnis für Ihre Assessments:
 * `executive-summary.md`: Vorstandspräsentation
 * `transformation-roadmap.md`: Plan für die Transition
 
-
-## 🚀 Quantum Leap Architecture: eBPF Live Telemetry
-
-Fragebögen sind Web 2.0. Wahre Reifegrade müssen gemessen, nicht behauptet werden:
-- **eBPF Daemon:** Belauscht Netzwerk-Traffic (Kubernetes/Gateway) und klassifiziert M2M- vs. Human-Traffic in Echtzeit.
-- **Kryptographisches Scoring:** Der Agentic Score (Level 0-5) wird hart aus dem Verhältnis von API-Calls zu UI-Interaktionen berechnet.
 
 
 ---
