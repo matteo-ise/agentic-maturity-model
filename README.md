@@ -59,6 +59,14 @@ Nutzen Sie die Vorlagen im `templates/`-Verzeichnis für Ihre Assessments:
 * `executive-summary.md`: Vorstandspräsentation
 * `transformation-roadmap.md`: Plan für die Transition
 
+
+## 🚀 Quantum Leap Architecture: eBPF Live Telemetry
+
+Fragebögen sind Web 2.0. Wahre Reifegrade müssen gemessen, nicht behauptet werden:
+- **eBPF Daemon:** Belauscht Netzwerk-Traffic (Kubernetes/Gateway) und klassifiziert M2M- vs. Human-Traffic in Echtzeit.
+- **Kryptographisches Scoring:** Der Agentic Score (Level 0-5) wird hart aus dem Verhältnis von API-Calls zu UI-Interaktionen berechnet.
+
+
 ---
 
 **Teil des Agentic Commerce Stack von Matteo Ise:**
