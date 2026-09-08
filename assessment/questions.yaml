@@ -1,0 +1,78 @@
+questions:
+  - id: tech_1
+    dimension: Technology & Infrastructure
+    text: "Wie greifen Mitarbeiter primär auf internes Unternehmenswissen zu?"
+    options:
+      - text: "Durch Nachfragen bei Kollegen, Ordnerstrukturen oder physische Dokumente."
+        stage: 0
+      - text: "Über eine semantische Suche (RAG/Embeddings), die Dokumente intelligent findet."
+        stage: 1
+      - text: "Ein KI-Agent sucht nicht nur, sondern fasst zusammen und führt einfache Aktionen aus."
+        stage: 2
+      - text: "Alle internen Tools (ERP, CRM) sind über einen zentralen MCP-Server angebunden."
+        stage: 3
+    weight: 1.5
+
+  - id: tech_2
+    dimension: Technology & Infrastructure
+    text: "Wie interagieren externe Parteien digital mit Ihrem Unternehmen?"
+    options:
+      - text: "Ausschließlich über E-Mail, Telefon und PDF-Formulare."
+        stage: 0
+      - text: "Über Web-Portale und Web-Formulare (Human-to-Machine)."
+        stage: 1
+      - text: "Wir bieten eine rudimentäre API, die jedoch stark manuelle Integration erfordert."
+        stage: 2
+      - text: "Wir haben einen öffentlichen MCP (.well-known/mcp.json) für externe Agenten."
+        stage: 4
+      - text: "Externe Agenten können vollautonom Transaktionen mit unseren Agenten abschließen."
+        stage: 5
+    weight: 2.0
+
+  - id: org_1
+    dimension: Organization & Processes
+    text: "Welche Rolle spielt der 'Human-in-the-loop' bei Standardprozessen?"
+    options:
+      - text: "Menschen führen den gesamten Prozess manuell durch."
+        stage: 0
+      - text: "Menschen nutzen KI als Recherche- und Schreibhilfe (Copilot)."
+        stage: 1
+      - text: "Agenten führen Prozesse aus, Menschen prüfen und geben frei (Approval)."
+        stage: 2
+      - text: "Menschen greifen nur bei definierten Eskalationen oder Ausnahmen ein."
+        stage: 4
+      - text: "Kein Mensch involviert, Agenten handeln völlig autonom inklusive Payments."
+        stage: 5
+    weight: 1.5
+
+  - id: strat_1
+    dimension: Strategy & Vision
+    text: "Was ist das primäre Ziel der KI-Strategie?"
+    options:
+      - text: "Es gibt keine definierte Strategie."
+        stage: 0
+      - text: "Individuelle Produktivität (Mitarbeiter sollen schneller arbeiten)."
+        stage: 1
+      - text: "Prozessautomatisierung (Workflows effizienter machen)."
+        stage: 2
+      - text: "Architektur-Konsolidierung (Ein zentrales KI-Interface für alle Systeme)."
+        stage: 3
+      - text: "Erschließung der Machine-to-Machine (M2M) Ökonomie als neuer Vertriebskanal."
+        stage: 4
+    weight: 1.0
+
+  - id: data_1
+    dimension: Data & Security
+    text: "Wie wird die Berechtigung und der Datenzugriff für KI-Systeme gesteuert?"
+    options:
+      - text: "Gar nicht, KI wird ohne offizielle Freigabe genutzt (Schatten-IT)."
+        stage: 0
+      - text: "Die KI hat Lesezugriff auf unkritische, indexierte Dokumente."
+        stage: 1
+      - text: "Jeder Agent hat definierte Rollen (RBAC) für API-Zugriffe intern."
+        stage: 2
+      - text: "Über eine zentrale MCP-Infrastruktur mit feingranularem Governance-Audit-Log."
+        stage: 3
+      - text: "Autonome Agenten haben dedizierte Wallets und signieren Transaktionen kryptografisch."
+        stage: 5
+    weight: 2.0

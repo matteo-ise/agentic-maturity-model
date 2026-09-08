@@ -1,0 +1,13 @@
+{
+  "year": 2026,
+  "region": "Germany",
+  "industries": {
+    "Manufacturing": 0.8,
+    "Financial Services": 1.5,
+    "Tech/SaaS": 2.3,
+    "Public Sector": 0.3,
+    "Retail": 1.2,
+    "Healthcare": 0.5,
+    "Professional Services (StB/WP/RA)": 0.7
+  }
+}
