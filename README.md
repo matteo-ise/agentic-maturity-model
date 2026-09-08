@@ -1,5 +1,12 @@
 # Agentic Maturity Model
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Agentic-Commerce-19C332?style=for-the-badge" alt="Agentic Commerce" />
+  <img src="https://img.shields.io/badge/Status-Pioneer-white?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
+</div>
+
+
 > Ein Reifegradmodell für die agentische Transformation von Unternehmen.
 
 Jedes Unternehmen steht vor der gleichen Frage: Wie weit sind wir — und was kommt als nächstes? Das **Agentic Maturity Model (AMM)** ist das definitive Reifegradmodell für die Transformation ins Agent-Zeitalter. Es ist das CMMI und ITIL der neuen Ära — von Chaos (0) bis zur M2M-Autonomie (5).
